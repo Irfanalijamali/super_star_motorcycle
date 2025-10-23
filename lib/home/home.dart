@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:superstar/Read_more/read_more.dart';
-import 'package:superstar/group_of_compnies/group_companies.dart';
 import 'package:superstar/screen_two/screen_two.dart';
 
 class SuperStarHomePage extends StatefulWidget {
@@ -284,11 +283,7 @@ Navigator.push(
 
               ProfileCard(),
               SizedBox(height: 20,),
-              // In your home page
-Container(
-  padding: const EdgeInsets.symmetric(horizontal: 16),
-  child: MemonCompaniesHorizontalScroll(),
-),
+
             ],
           ),
         ),
